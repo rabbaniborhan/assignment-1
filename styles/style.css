@@ -1,0 +1,140 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'open sans';
+}
+
+
+/* -------------header section style------------ */
+header{
+    background-image: url("../images/banner/banner3.png");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height:100vh;
+    padding-top: 80px;
+    position: relative;
+    text-align: right;
+
+}
+.header-description{
+    position: absolute;
+    top: 100px;
+    right: 100px;
+    width: 500px;
+    height: 200px;
+    padding-top: 20px;
+    color: #ffffff;
+
+}
+.header-description h2{
+    font-weight: 800;
+    font-size: 45px;
+}
+.header-description p{
+    font-size: 14px;
+    line-height: 25px;
+    padding:25px 0px ;
+}
+.btn-primary{
+    padding: 10px 15px;
+    color: #005FAC;
+    border-radius: 5px;
+    border: none;
+
+}
+
+
+/* main section style */
+.figure{
+    display: flex;
+    width: 80%;
+    padding: 100px;
+    align-items: center;
+    justify-content: center;
+
+}
+.figure img{
+    width: 400px;
+    height: 520px;
+    padding:50px ;
+}
+.figure h2{
+    font-size: 45px;
+    font-weight:800;
+    padding: 20px  50px;
+}
+.details{
+    padding-top: 40px;
+
+}
+.details-paragraph{
+    font-size: 14px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    line-height:22px;
+}
+
+.details-list{
+    font-size: 14px;
+    padding-left: 50px;
+    line-height: 27px;
+}
+
+
+/* -----plan section style--- */
+
+.plans{
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 30px;
+    font-weight:700;
+}
+
+.plans-section{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.plans-list{
+    text-align: center;
+    padding: 50px 0px;
+}
+.plans-section img{
+    width:40px; 
+   
+
+}
+.plans-list p{
+    font-size: 14px;
+    color: grey;
+    padding: 5px;
+}
+.plans-list h5{
+    font-size: 18px;
+}
+
+
+
+/* ---------contact section style----------*/
+
+.contact{
+  
+    background: linear-gradient(to left,rgba(0, 95, 172,  0),rgba(0, 95, 172, 0.9)),url(../images/watch.png);
+    width: 65%;
+    margin: 30px auto;
+    background-size: cover;
+    height: 150px;
+    background-position: center;
+    border-radius: 5px;
+
+}
+.contact div {
+    padding: 15px 50px;
+}
+.contact h2{
+    color: #ffffff;
+    padding-bottom: 10px;
+}
